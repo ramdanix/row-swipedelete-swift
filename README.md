@@ -4,7 +4,7 @@ Example UITableCell swipe delete
 
 ## Method
 
-use method in `UITableViewDataSource` for swipe row
+use method in `UITableViewDataSource` for swipe row and delete data from array.
 ### Method First
 
 ```swift
