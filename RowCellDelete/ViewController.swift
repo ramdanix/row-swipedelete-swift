@@ -46,7 +46,6 @@ extension ViewController : UITableViewDataSource{
     return cell
   }
   
-  
   func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
     if editingStyle == .delete{
       self.data.remove(at: indexPath.row)
